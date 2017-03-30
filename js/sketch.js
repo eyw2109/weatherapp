@@ -60,7 +60,7 @@ function setup(){
     button.mousePressed(forecastTitle);
     button.mousePressed(queryDate);
     //queryText.position(500, 800);
-    city.position(400, 800);
+    city.position(800, 800);
     button.position(city.x + city.width, 800);
     city.style('font-family', 'Roboto Condensed')
 }
