@@ -207,27 +207,27 @@ function draw(){
         text(day1, 25, 450);
         text('temperature: ' + int(temperature1) + '\xB0 F', 25, 480);
         text('humidity: ' + humidity1 + '%', 25, 500);
-        text('high/low: ' + highTemp1 + ' / ' + lowTemp1 + '\xB0 F', 25, 520);
+        text('high/low: ' + int(highTemp1) + ' / ' + int(lowTemp1) + '\xB0 F', 25, 520);
 
         text(day2, 250, 450);
         text('temperature: ' + int(temperature2) + '\xB0 F', 250, 480);
         text('humidity: ' + humidity2 + '%', 250, 500);
-        text('high/low: ' + highTemp2 + ' / ' + lowTemp2 + '\xB0 F', 250, 520);
+        text('high/low: ' + int(highTemp2) + ' / ' + int(lowTemp2) + '\xB0 F', 250, 520);
 
         text(day3, 475, 450);
         text('temperature: ' + int(temperature3) + '\xB0 F', 475, 480);
         text('humidity: ' + humidity3 + '%', 475, 500);
-        text('high/low: ' + highTemp3 + ' / ' + lowTemp3 + '\xB0 F', 475, 520);
+        text('high/low: ' + int(highTemp3) + ' / ' + int(lowTemp3) + '\xB0 F', 475, 520);
 
         text(day4, 695, 450);
         text('temperature: ' + int(temperature4) + '\xB0 F', 695, 480);
         text('humidity: ' + humidity4 + '%', 695, 500);
-        text('high/low: ' + highTemp4 + ' / ' + lowTemp4 + '\xB0 F', 695, 520);
+        text('high/low: ' + int(highTemp4) + ' / ' + int(lowTemp4) + '\xB0 F', 695, 520);
 
         text(day5, 925, 450);
         text('temperature: ' + int(temperature5) + '\xB0 F', 925, 480);
         text('humidity: ' + humidity5 + '%', 925, 500);
-        text('high/low: ' + highTemp5 + ' / ' + lowTemp5 + '\xB0 F', 925, 520);
+        text('high/low: ' + int(highTemp5) + ' / ' + int(lowTemp5) + '\xB0 F', 925, 520);
     }
 
 }
